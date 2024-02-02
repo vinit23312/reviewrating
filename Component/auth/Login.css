@@ -1,0 +1,226 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Login1{
+    width: 100%;
+    height: 99vh;
+    border: 2px solid black;
+    
+    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+.Login2{
+    width: 84%;
+    height: 73vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+.left-box{
+    width: 46.5%;
+    height: 72vh;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+#w-l{
+    margin-top: 10px;
+}
+#p-p{
+    font-size: 20px;
+}
+.img-1{
+    width: 98%;
+    height: 300px;
+     margin-top: 14px;
+}
+.Right-box{
+    width: 43%;
+    height: 72vh;
+    border: 1px solid black;
+    color: black;
+    
+}
+.right-box-A{
+    background-image: url('../../assets/Group\ 11665.png');
+    width: 96%;
+    height: 525px;
+    border-radius: 1px 28px 15px 29px;
+    display: flex;
+    flex-direction: column; 
+     justify-content: center;
+}
+.img-2{
+    width: 10%;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 376px;
+    margin-top: 52px;
+}
+.login-t{
+   position: relative;
+   bottom: 45px;
+   color: blue;
+}
+.login-t1{
+    position: relative;
+   bottom: 17px;
+}
+#input-box{
+    width: 80%;
+    padding: 10px;
+    margin-top: 23px;
+}
+#f-p{
+    margin:20px 1px 20px 250px  ;
+}
+#btn{
+    width: 25%;
+    border: none;
+    padding: 5px;
+    background: linear-gradient(700deg,rgb(35, 16, 211), rgb(233, 147, 233));
+    font-size: 23px;
+    margin-right: 33px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+#h-r{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.a-h{
+    color: black;
+    font-weight: 600;
+    position: relative;
+    top: 5px;
+} */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.login-container{
+    display: flex;
+    width: 100%;
+   
+    justify-content: space-around;
+    align-items: center;
+    height: 647px;
+    padding: 120px 80px;
+    /* background: linear-gradient(180deg, rgb(201, 127, 247), rgb(90, 19, 197)); */
+    background: linear-gradient(180deg, rgb(181, 138, 250), rgb(116, 32, 240));
+}
+.left-login-wel{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-size: 21px;
+}
+/* .left-login-logo{
+    margin-bottom: 50px;
+    background-image: url(../../assets/img.png);
+    height: 383px;
+    width: 600px;
+    background-repeat: no-repeat;
+} */
+.img-5{
+    height: 400px;
+    margin-top: 30px;
+}
+.right-login{
+    width: 420px;
+    background-image: url(../../assets/Group\ 11665.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+  
+
+}
+
+.login-h2{
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 25px;
+    background: linear-gradient(to right, 
+    rgb(162, 24, 212),rgb(86, 12, 198)); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+    padding-left: 30px;
+    margin-top: 15px;
+}
+.login-star{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 110px;
+    padding-bottom: 10px;
+}
+.login-img{
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 60px;
+    margin-top: 10px;
+}
+.login-p{
+    text-align: center;
+}
+.login-form{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.login-input{
+    width: 300px;
+    height: 28px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+}
+.login-p1 {
+    margin-left: 190px;
+}
+.hr-login{
+    width: 90%;
+    margin-left: 30px;
+}
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+.login-btn{
+    padding: 7px 6px;
+    width: 120px;
+    font-size: 22px;
+    background: linear-gradient(100deg, rgb(202, 75, 248),rgb(74, 20, 155));
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-weight: 600;
+
+}
+.login-btn1{
+    color: aliceblue;
+    text-decoration: none;
+}
+.login-p2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
